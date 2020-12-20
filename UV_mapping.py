@@ -5,8 +5,8 @@ from Helper import save_obj
 
 def create_UV_XYZ_dictionary(root_dir):
 
-    classes = ['ape', 'benchviseblue', 'can', 'cat', 'driller', 'duck', 'glue', 'holepuncher',
-               'iron', 'lamp', 'phone', 'cam', 'eggbox']
+    classes = [ 'can', 'cat',  'phone', 'duck', 'glue', 'holepuncher',
+               'iron', 'driller', 'lamp', 'benchviseblue', 'cam', 'eggbox','ape']
     # create a dictionary for UV to XYZ correspondence
     for label in classes:
         ptcld_file = root_dir + label + "/object.xyz"

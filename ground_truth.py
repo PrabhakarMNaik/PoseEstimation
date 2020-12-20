@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 import random
 import matplotlib.image as mpimg
-
+from scipy.spatial.transform import Rotation as R
 
 
 def create_GT_masks(root_dir, background_dir, intrinsic_matrix,classes):
